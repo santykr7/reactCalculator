@@ -1,0 +1,26 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tbutton {
+  padding: 11px 49px;
+}
+.calculator-grid {
+  display: flex;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
