@@ -24,3 +24,10 @@ form {
   grid-template-columns: repeat(4);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
+
+input {
+  border-radius: 5px;
+  background-color: rgb(16, 29, 202);
+  margin: 10px;
+  padding: 10px;
+}
